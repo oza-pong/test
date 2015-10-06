@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>草津景観_都市.kmz</name>
+	<open>1</open>
+	<Style id="sh_tabimaru">
+		<IconStyle>
+			<scale>1.77273</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_tabimaru0">
+		<IconStyle>
+			<scale>1.77273</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_tabimaru">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_tabimaru">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_tabimaru0">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_tabimaru0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>都市</name>
+		<open>1</open>
+		<LookAt>
+			<longitude>135.9461545485615</longitude>
+			<latitude>35.00288107276411</latitude>
+			<altitude>0</altitude>
+			<heading>-0.01142628534777822</heading>
+			<tilt>37.70187989125527</tilt>
+			<range>9956.064009742355</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<Placemark id="木陰にせせらぐ散歩道湖南農業高校南側">
+			<name>木陰にせせらぐ散歩道（湖南農業高校南側）</name>
+			<description><![CDATA[<img width="480" height="360" src="files/01.JPG"/>
+<br>
+<br>
+
+所在地：草津町
+<br>
+<br>
+
+応募理由：木漏れ陽が小川のせせらぎに揺れる小径。
+<br>
+<br>
+
+分類：都市
+<br>
+<br>
+
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9512207122143</longitude>
+				<latitude>35.01390171232048</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0005874880288393813</heading>
+				<tilt>18.84685328022143</tilt>
+				<range>1072.487784917528</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru0</styleUrl>
+			<Point>
+				<coordinates>135.9526869311548,35.01370871064563,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="水とふれあう伯母川の親水空間">
+			<name>水とふれあう伯母川の親水空間</name>
+			<description><![CDATA[<img width="480" height="360" src="files/02_1.JPG"/>
+
+<img width="480" height="360" src="files/02_2.JPG"/>
+
+<br><br>
+
+所在地：草津４丁目
+<br><br>
+
+応募理由：親水空間から立木橋を眺める。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9580836015708</longitude>
+				<latitude>35.01335556175001</latitude>
+				<altitude>0</altitude>
+				<heading>0.001087750426750332</heading>
+				<tilt>22.29214141148173</tilt>
+				<range>126.9618685776214</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru</styleUrl>
+			<Point>
+				<coordinates>135.9575975531984,35.01317487051701,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>市役所前のハナミズキ</name>
+			<description><![CDATA[<img width="480" height="360" src="files/03.JPG"/>
+<br><br>
+
+所在地：草津三丁目
+
+<br><br>
+
+応募理由：道路から建物に向かって、花みず木が咲いている時とても建物と調和していると思う。
+
+<br><br>
+
+季節：春]]></description>
+			<LookAt>
+				<longitude>135.9605794512774</longitude>
+				<latitude>35.01341632584879</latitude>
+				<altitude>0</altitude>
+				<heading>-121.601051798897</heading>
+				<tilt>0</tilt>
+				<range>104.2802389368993</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru</styleUrl>
+			<Point>
+				<coordinates>135.9605308104652,35.01338384003495,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>行き交い、躍動する広域幹線道路（京滋バイパス）</name>
+			<description><![CDATA[<img width="480" height="360" src="files/04.JPG"/>
+<br><br>
+
+所在地：東矢倉３丁目
+
+<br><br>
+
+応募理由：遠くに見える市街地の建築物とあいまって、近未来的に感じる。
+
+<br><br>
+
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9563740960708</longitude>
+				<latitude>35.00409518399735</latitude>
+				<altitude>0</altitude>
+				<heading>6.819253884410575</heading>
+				<tilt>72.05420063667974</tilt>
+				<range>186.2966871311653</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru</styleUrl>
+			<Point>
+				<coordinates>135.9563891039232,35.00380632946258,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="水と緑に映える矢橋大橋">
+			<name>水と緑に映える矢橋大橋</name>
+			<description><![CDATA[<img width="480" height="360" src="files/06.JPG"/>
+<br><br>
+
+所在地：矢橋町（老上）
+<br><br>
+
+応募理由：湖に浮かぶ道路とお洒落な街灯が外国のような景観。あわせて背景の湖、緑のコントラストが美しい。日差しの強い夏は特にお薦めです。
+<br><br>
+
+季節：夏]]></description>
+			<LookAt>
+				<longitude>135.9203052140679</longitude>
+				<latitude>35.01057472514595</latitude>
+				<altitude>0</altitude>
+				<heading>-69.14467529958</heading>
+				<tilt>84.14455264036469</tilt>
+				<range>129.1610416993551</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru</styleUrl>
+			<Point>
+				<coordinates>135.9210872115341,35.01016681227934,84.09828394660593</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="新都心南草津駅西口">
+			<name>新都心、南草津駅西口</name>
+			<description><![CDATA[<img width="480" height="360" src="files/08.JPG"/>
+<br><br>
+
+所在地：南草津１丁目
+<br><br>
+
+応募理由：区画整理で整備された南草津駅周辺は、質の高いまちづくりが行われている。
+秋には、西口広場のケヤキが美しく色づく。
+<br><br>
+
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9465956268977</longitude>
+				<latitude>35.00404665026517</latitude>
+				<altitude>0</altitude>
+				<heading>-107.1873758595753</heading>
+				<tilt>42.10613341532441</tilt>
+				<range>177.5335568781916</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru</styleUrl>
+			<Point>
+				<coordinates>135.9469238868774,35.0039754998044,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="美しい桜ヶ丘秋のこもれび池">
+			<name>美しい桜ヶ丘、秋のこもれび池</name>
+			<description><![CDATA[<img width="480" height="360" src="files/10.JPG"/>
+
+<br><br>
+所在地（学区・地区）：桜ヶ丘 1 丁目（玉川）
+<br><br>
+応募理由：春や夏も池にはスイレンなどが咲いていますが、
+やはり秋の紅葉がすばらしい。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9608602599412</longitude>
+				<latitude>34.99052772611197</latitude>
+				<altitude>0</altitude>
+				<heading>140.3926178206431</heading>
+				<tilt>40.18620758531983</tilt>
+				<range>130.6735857568148</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru</styleUrl>
+			<Point>
+				<coordinates>135.9609456862055,34.99064077686554,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="活気あふれるキャンパス立命館大学ＢＫＣ">
+			<name>活気あふれるキャンパス（立命館大学ＢＫＣ）</name>
+			<description><![CDATA[<img width="480" height="360" src="files/12.JPG"/>
+<br><br>
+所在地：野路東１丁目
+<br><br>
+応募理由：立命館大学びわこくさつキャンパスは多くの学生が集い学ぶ
+<br><br>
+季節：通年]]></description>
+			<Camera>
+				<longitude>135.9605828011998</longitude>
+				<latitude>34.98502552710565</latitude>
+				<altitude>2.000000000569746</altitude>
+				<heading>145.1494182548913</heading>
+				<tilt>92.50026787939298</tilt>
+				<roll>-3.514512923017185e-13</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_tabimaru</styleUrl>
+			<Point>
+				<coordinates>135.9606993253122,34.98490632848372,156.6454349122718</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="旅人が左右を見て渡った弁天池">
+			<name>旅人が左右を見て渡った弁天池</name>
+			<description><![CDATA[<img width="480" height="360" src="files/13.JPG"//>
+<br><br>
+所在地：南笠東１丁目
+<br><br>
+応募理由：東海道のほとりにある弁天池。
+江戸時代は、東海道の東側にも広がっていて、
+旅人は池を左右に見ながら渡っていた。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9444068814967</longitude>
+				<latitude>34.99522977447506</latitude>
+				<altitude>0</altitude>
+				<heading>-62.18684139017671</heading>
+				<tilt>28.29059381089606</tilt>
+				<range>325.5071912059467</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru</styleUrl>
+			<Point>
+				<coordinates>135.9446387186555,34.99500241108323,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="湖の青に船の白北山田漁港">
+			<name>湖の青に船の白、北山田漁港</name>
+			<description><![CDATA[<img width="480" height="360" src="files/15.JPG"/>
+<br><br>
+所在地：北山田町
+<br><br>
+応募理由：湖周道路より内側にある漁港の風景は珍しい。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9151161512729</longitude>
+				<latitude>35.02975838681618</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01467992205959032</heading>
+				<tilt>16.12755188760025</tilt>
+				<range>470.2378738109821</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru</styleUrl>
+			<Point>
+				<coordinates>135.9150673242948,35.02995522862088,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

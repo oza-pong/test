@@ -1,3 +1,3 @@
-var cesiumWidget = new Cesium.Viewer('cesiumContainer');
+var viewer = new Cesium.Viewer('cesiumContainer');
 
 viewer.dataSources.add(Cesium.KmlDataSource.load('hhttp://oza-pong.github.io/test/cesium-starter-app-master/Source/dov.kmz'));

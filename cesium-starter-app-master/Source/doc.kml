@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>草津景観_都市.kmz</name>
+	<name>草津景観.kmz</name>
 	<open>1</open>
-	<StyleMap id="msn_tabimaru">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_tabimaru</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_tabimaru2</styleUrl>
-		</Pair>
-	</StyleMap>
+	<Style id="sn_tabimaru">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
 	<Style id="sh_tabimaru0">
 		<IconStyle>
 			<scale>1.77273</scale>
@@ -24,64 +25,20 @@
 			<scale>0</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_tabimaru0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_tabimaru1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_tabimaru</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_tabimaru">
-		<IconStyle>
-			<scale>1.77273</scale>
-			<Icon>
-				<href>http://oza-pong.github.io/test/cesium-starter-app-master/Source/files/tabimaru.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_tabimaru1">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>files/tabimaru.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_tabimaru00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_tabimaru0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_tabimaru0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_tabimaru0">
-		<IconStyle>
-			<scale>1.5</scale>
-			<Icon>
-				<href>files/tabimaru.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sn_tabimaru">
+	<Style id="sn_tabimaru2">
 		<IconStyle>
 			<scale>1.2</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_tabimaru2">
+		<IconStyle>
+			<scale>1.44</scale>
 			<Icon>
 				<href>files/tabimaru.png</href>
 			</Icon>
@@ -95,16 +52,27 @@
 	<StyleMap id="msn_tabimaru1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_tabimaru2</styleUrl>
+			<styleUrl>#sn_tabimaru20</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_tabimaru1</styleUrl>
+			<styleUrl>#sh_tabimaru2</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_tabimaru2">
+	<Style id="sh_tabimaru">
 		<IconStyle>
-			<scale>1.4</scale>
+			<scale>1.77273</scale>
+			<Icon>
+				<href>http://oza-pong.github.io/test/cesium-starter-app-master/Source/files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_tabimaru20">
+		<IconStyle>
+			<scale>1.2</scale>
 			<Icon>
 				<href>files/tabimaru.png</href>
 			</Icon>
@@ -115,6 +83,16 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
+	<StyleMap id="msn_tabimaru2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru1</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sn_tabimaru1">
 		<IconStyle>
 			<scale>1.5</scale>
@@ -126,9 +104,39 @@
 			<scale>0</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_tabimaru2">
+	<StyleMap id="msn_tabimaru00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_tabimaru">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_tabimaru0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_tabimaru1">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>1.41818</scale>
 			<Icon>
 				<href>files/tabimaru.png</href>
 			</Icon>
@@ -136,8 +144,28 @@
 		<LabelStyle>
 			<scale>0</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
+	</Style>
+	<Style id="sh_tabimaru4">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_tabimaru0">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
 	</Style>
 	<Folder>
 		<name>都市</name>
@@ -185,7 +213,6 @@
 		</Placemark>
 		<Placemark id="水とふれあう伯母川の親水空間">
 			<name>水とふれあう伯母川の親水空間</name>
-			<visibility>0</visibility>
 			<description><![CDATA[<img width="480" height="360" src="files/02_1.JPG"/>
 
 <img width="480" height="360" src="files/02_2.JPG"/>
@@ -214,7 +241,6 @@
 		</Placemark>
 		<Placemark>
 			<name>市役所前のハナミズキ</name>
-			<visibility>0</visibility>
 			<description><![CDATA[<img width="480" height="360" src="files/03.JPG"/>
 <br><br>
 
@@ -243,7 +269,6 @@
 		</Placemark>
 		<Placemark>
 			<name>行き交い、躍動する広域幹線道路（京滋バイパス）</name>
-			<visibility>0</visibility>
 			<description><![CDATA[<img width="480" height="360" src="files/04.JPG"/>
 <br><br>
 
@@ -272,7 +297,6 @@
 		</Placemark>
 		<Placemark id="水と緑に映える矢橋大橋">
 			<name>水と緑に映える矢橋大橋</name>
-			<visibility>0</visibility>
 			<description><![CDATA[<img width="480" height="360" src="files/06.JPG"/>
 <br><br>
 
@@ -299,7 +323,6 @@
 		</Placemark>
 		<Placemark id="新都心南草津駅西口">
 			<name>新都心、南草津駅西口</name>
-			<visibility>0</visibility>
 			<description><![CDATA[<img width="480" height="360" src="files/08.JPG"/>
 <br><br>
 
@@ -327,7 +350,6 @@
 		</Placemark>
 		<Placemark id="美しい桜ヶ丘秋のこもれび池">
 			<name>美しい桜ヶ丘、秋のこもれび池</name>
-			<visibility>0</visibility>
 			<description><![CDATA[<img width="480" height="360" src="files/10.JPG"/>
 
 <br><br>
@@ -353,7 +375,6 @@
 		</Placemark>
 		<Placemark id="活気あふれるキャンパス立命館大学ＢＫＣ">
 			<name>活気あふれるキャンパス（立命館大学ＢＫＣ）</name>
-			<visibility>0</visibility>
 			<description><![CDATA[<img width="480" height="360" src="files/12.JPG"/>
 <br><br>
 所在地：野路東１丁目
@@ -377,7 +398,6 @@
 		</Placemark>
 		<Placemark id="旅人が左右を見て渡った弁天池">
 			<name>旅人が左右を見て渡った弁天池</name>
-			<visibility>0</visibility>
 			<description><![CDATA[<img width="480" height="360" src="files/13.JPG"//>
 <br><br>
 所在地：南笠東１丁目
@@ -403,7 +423,6 @@
 		</Placemark>
 		<Placemark id="湖の青に船の白北山田漁港">
 			<name>湖の青に船の白、北山田漁港</name>
-			<visibility>0</visibility>
 			<description><![CDATA[<img width="480" height="360" src="files/15.JPG"/>
 <br><br>
 所在地：北山田町
@@ -505,9 +524,244 @@
 				<roll>-0</roll>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</Camera>
-			<styleUrl>#msn_tabimaru1</styleUrl>
+			<styleUrl>#msn_tabimaru2</styleUrl>
 			<Point>
 				<coordinates>135.9599050683936,35.01698331934978,2.000000001559051</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>郷愁誘う
+本陣商店街の玩具店</name>
+			<open>1</open>
+			<description><![CDATA[<img width="480" height="360" src="files/21.JPG"/>
+<br><br>
+所在地：草津２丁目
+
+<br><br>
+応募理由：東海道沿いには、昔ながらの商店が少なからず残っている。観光資源としても残していきたいものである。
+
+<br><br>
+季節：通年]]></description>
+			<styleUrl>#msn_tabimaru1</styleUrl>
+			<Point>
+				<coordinates>135.959877,35.016909,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>宿場の路地ならではの鉤型（かぎがた）十字路</name>
+			<open>1</open>
+			<description><![CDATA[<img width="480" height="360" src="files/22.JPG"/>
+<br><br>
+所在地：草津２丁目
+
+<br><br>
+応募理由：宿場町草津の歴史を感じさせる鉤型の十字路。
+
+<br><br>
+季節：通年]]></description>
+			<styleUrl>#msn_tabimaru1</styleUrl>
+			<Point>
+				<coordinates>135.96088,35.016269,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>旧東海道の酒蔵、白壁と焼杉板</name>
+			<open>1</open>
+			<description><![CDATA[<img width="480" height="360" src="files/23.JPG"/>
+<br><br>
+所在地：草津３丁目
+
+<br><br>
+酒蔵の白壁が眩しく印象的で、焼杉板の黒との対比が美しい。
+
+<br><br>
+通年]]></description>
+			<styleUrl>#msn_tabimaru1</styleUrl>
+			<Point>
+				<coordinates>135.958251,35.014974,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>草津駅東口の駅前商店街</name>
+			<description><![CDATA[<img width="480" height="360" src="files/24.JPG"/>
+<br><br>
+所在地：大路１丁目
+
+<br><br>
+応募理由：街中の商店街は今や貴重な存在であり、大型のショッピングセンターにはない地域の生活を感じられる場所である。
+
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9622155524966</longitude>
+				<latitude>35.01996456689714</latitude>
+				<altitude>0</altitude>
+				<heading>0.002894036393664483</heading>
+				<tilt>28.82305983100524</tilt>
+				<range>370.3046292151935</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru1</styleUrl>
+			<Point>
+				<coordinates>135.962660082448,35.0202820330008,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>記銘入り県下最古ボックスカルバート型トンネル（上り線）</name>
+			<description><![CDATA[<img width="480" height="360" src="files/25.JPG"/>
+<br><br>
+
+大路二丁目・大路三丁目
+<br><br>
+
+戦前のボックスカルバート型で、県内で記銘入りトンネル（草津川隋道・２代目）では最古（昭和１１年３月）で、笠石・帯石・ピラスターを模した装飾。単線並列断面（道路用では稀）。貴重な近代遺産（建造物）です。
+
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9683294893868</longitude>
+				<latitude>35.01769079030708</latitude>
+				<altitude>0</altitude>
+				<heading>-164.5212021935418</heading>
+				<tilt>28.60745758831479</tilt>
+				<range>479.2499452741059</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru1</styleUrl>
+			<Point>
+				<coordinates>135.9679602611367,35.01704879310569,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>旧中山道のまちなみ</name>
+			<description><![CDATA[<img width="480" height="360" src="files/26.JPG"/>
+<br><br>
+
+所在地：渋川１丁目
+<br><br>
+
+応募理由：旧中山道沿いには、古い民家も多く、歴史的なまちなみが残っている。
+<br><br>
+
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9658825994479</longitude>
+				<latitude>35.02196291091084</latitude>
+				<altitude>0</altitude>
+				<heading>0.001194035910954418</heading>
+				<tilt>0</tilt>
+				<range>1088.516099633928</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru1</styleUrl>
+			<Point>
+				<coordinates>135.9647179398161,35.02327692197979,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>矢橋道のまちなみ</name>
+			<description><![CDATA[<img width="480" height="360" src="files/27.JPG"/>
+<br><br>
+
+所在地：矢橋町
+<br><br>
+
+応募理由：「急がば廻れ」で有名な矢橋道沿いには、古い民家も多く残っており、風情がある。
+
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.928808578239</longitude>
+				<latitude>35.00923829731814</latitude>
+				<altitude>0</altitude>
+				<heading>-116.5857995939833</heading>
+				<tilt>13.65294814436746</tilt>
+				<range>215.6339917070785</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru1</styleUrl>
+			<Point>
+				<coordinates>135.9290315372225,35.00908107033717,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>JR南草津西口駅前けやき並木通り</name>
+			<description><![CDATA[<img width="480" height="360" src="files/28.JPG"/>
+<br><br>
+
+所在地：南草津二丁目
+
+<br><br>
+
+応募理由：約７００～８００ｍ程度ながらけやき並木が素晴らしい当然ながら晩秋の頃が一番見応えがある
+
+<br><br>
+
+季節：秋]]></description>
+			<LookAt>
+				<longitude>135.9427573092121</longitude>
+				<latitude>35.00501166820926</latitude>
+				<altitude>0</altitude>
+				<heading>114.3200587007561</heading>
+				<tilt>15.08935892304456</tilt>
+				<range>620.3071549157345</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru1</styleUrl>
+			<Point>
+				<coordinates>135.9434230684745,35.00427972715332,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>美しい桜ヶ丘、緑の小道</name>
+			<description><![CDATA[<img width="480" height="360" src="files/29.JPG"/>
+<br><br>
+
+所在地：桜ヶ丘４丁目、５丁目
+<br><br>
+
+応募理由：住宅地の遊歩道は、木々の緑に包まれ、通学にも安全なみちである。「みどり」の中で生活感を感じられる場所。
+<br><br>
+
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9599869027148</longitude>
+				<latitude>34.98844132242288</latitude>
+				<altitude>0</altitude>
+				<heading>-90.24016339518465</heading>
+				<tilt>27.61438934863609</tilt>
+				<range>104.8802239312281</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru1</styleUrl>
+			<Point>
+				<coordinates>135.9600121733617,34.98840856582858,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>古道芦浦道</name>
+			<description><![CDATA[<img width="480" height="360" src="files/30.JPG"/>
+<br><br>
+
+所在地：穴村町
+<br><br>
+
+応募理由：昔の面影残る古道の風景
+<br><br>
+
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9504915616832</longitude>
+				<latitude>35.04789165912349</latitude>
+				<altitude>0</altitude>
+				<heading>0.0009321244401578976</heading>
+				<tilt>16.65832142701034</tilt>
+				<range>533.4747757079722</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru1</styleUrl>
+			<Point>
+				<coordinates>135.9501575208903,35.04759943187472,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>

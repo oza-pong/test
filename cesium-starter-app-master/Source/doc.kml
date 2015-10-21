@@ -2,34 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>草津景観.kmz</name>
-	<open>1</open>
-	<Style id="sn_tabimaru">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>files/tabimaru.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-	</Style>
 	<Style id="sh_tabimaru0">
 		<IconStyle>
-			<scale>1.77273</scale>
+			<scale>1.41818</scale>
 			<Icon>
 				<href>http://oza-pong.github.io/test/cesium-starter-app-master/Source/files/tabimaru.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sn_tabimaru2">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>files/tabimaru.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -46,33 +23,119 @@
 		<LabelStyle>
 			<scale>0</scale>
 		</LabelStyle>
+	</Style>
+	<Style id="sh_tabimaru">
+		<IconStyle>
+			<scale>1.41818</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_tabimaru1">
+	<Style id="sh_tabimaru1">
+		<IconStyle>
+			<scale>1.41818</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_tabimaru">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_tabimaru20</styleUrl>
+			<styleUrl>#sn_tabimaru</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_tabimaru2</styleUrl>
+			<styleUrl>#sh_tabimaru8</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_tabimaru">
+	<Style id="sh_tabimaru3">
 		<IconStyle>
-			<scale>1.77273</scale>
+			<scale>1.41818</scale>
 			<Icon>
-				<href>http://oza-pong.github.io/test/cesium-starter-app-master/Source/files/tabimaru.png</href>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_tabimaru0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
 			<scale>0</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_tabimaru20">
+	<Style id="sn_tabimaru">
 		<IconStyle>
 			<scale>1.2</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_tabimaru1">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_tabimaru4">
+		<IconStyle>
+			<scale>1.41818</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_tabimaru0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru19</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_tabimaru5">
+		<IconStyle>
+			<scale>1.41818</scale>
 			<Icon>
 				<href>files/tabimaru.png</href>
 			</Icon>
@@ -86,16 +149,36 @@
 	<StyleMap id="msn_tabimaru2">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_tabimaru2</styleUrl>
+			<styleUrl>#sn_tabimaru20</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_tabimaru1</styleUrl>
+			<styleUrl>#sh_tabimaru14</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_tabimaru1">
+	<StyleMap id="msn_tabimaru1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru16</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_tabimaru00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru30</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_tabimaru2">
 		<IconStyle>
-			<scale>1.5</scale>
+			<scale>1.2</scale>
 			<Icon>
 				<href>files/tabimaru.png</href>
 			</Icon>
@@ -104,37 +187,20 @@
 			<scale>0</scale>
 		</LabelStyle>
 	</Style>
-	<StyleMap id="msn_tabimaru00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_tabimaru0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_tabimaru0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_tabimaru">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_tabimaru</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_tabimaru4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_tabimaru0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_tabimaru1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_tabimaru</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_tabimaru1">
+	<Style id="sn_tabimaru3">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_tabimaru6">
 		<IconStyle>
 			<scale>1.41818</scale>
 			<Icon>
@@ -144,8 +210,200 @@
 		<LabelStyle>
 			<scale>0</scale>
 		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<Style id="sh_tabimaru4">
+	<Style id="sh_tabimaru7">
+		<IconStyle>
+			<scale>1.41818</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_tabimaru4">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_tabimaru000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_tabimaru8">
+		<IconStyle>
+			<scale>1.41818</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_tabimaru02">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru18</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru60</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_tabimaru3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_tabimaru5">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_tabimaru6">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_tabimaru7">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_tabimaru8">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_tabimaru4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_tabimaru5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_tabimaru6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_tabimaru9">
+		<IconStyle>
+			<scale>1.41818</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_tabimaru9">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_tabimaru10">
+		<IconStyle>
+			<scale>1.41818</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_tabimaru50">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -156,7 +414,382 @@
 			<scale>0</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sn_tabimaru0">
+	<Style id="sh_tabimaru11">
+		<IconStyle>
+			<scale>1.41818</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_tabimaru20">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_tabimaru10">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_tabimaru01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru50</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_tabimaru12">
+		<IconStyle>
+			<scale>1.41818</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_tabimaru7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru17</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_tabimaru8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru18</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_tabimaru9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_tabimaru11">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_tabimaru10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru16</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_tabimaru13">
+		<IconStyle>
+			<scale>1.41818</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_tabimaru11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_tabimaru14">
+		<IconStyle>
+			<scale>1.41818</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_tabimaru12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_tabimaru30">
+		<IconStyle>
+			<scale>1.44</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_tabimaru12">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_tabimaru13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru17</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_tabimaru100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_tabimaru15">
+		<IconStyle>
+			<scale>1.41818</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_tabimaru40">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_tabimaru14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_tabimaru13">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_tabimaru14">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_tabimaru15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_tabimaru15">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_tabimaru16">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_tabimaru17">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_tabimaru16">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_tabimaru16">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_tabimaru17">
+		<IconStyle>
+			<scale>1.41818</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_tabimaru60">
+		<IconStyle>
+			<scale>1.77273</scale>
+			<Icon>
+				<href>http://oza-pong.github.io/test/cesium-starter-app-master/Source/files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_tabimaru18">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tabimaru12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tabimaru5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_tabimaru17">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_tabimaru18">
 		<IconStyle>
 			<scale>1.5</scale>
 			<Icon>
@@ -166,6 +799,43 @@
 		<LabelStyle>
 			<scale>0</scale>
 		</LabelStyle>
+	</Style>
+	<Style id="sn_tabimaru200">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_tabimaru18">
+		<IconStyle>
+			<scale>1.41818</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_tabimaru19">
+		<IconStyle>
+			<scale>1.41818</scale>
+			<Icon>
+				<href>files/tabimaru.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<Folder>
 		<name>都市</name>
@@ -206,7 +876,7 @@
 				<range>1072.487784917528</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_tabimaru00</styleUrl>
+			<styleUrl>#msn_tabimaru000</styleUrl>
 			<Point>
 				<coordinates>135.9526869311548,35.01370871064563,0</coordinates>
 			</Point>
@@ -234,7 +904,7 @@
 				<range>126.9618685776214</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_tabimaru0</styleUrl>
+			<styleUrl>#msn_tabimaru000</styleUrl>
 			<Point>
 				<coordinates>135.9575975531984,35.01317487051701,0</coordinates>
 			</Point>
@@ -262,7 +932,7 @@
 				<range>104.2802389368993</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_tabimaru0</styleUrl>
+			<styleUrl>#msn_tabimaru000</styleUrl>
 			<Point>
 				<coordinates>135.9605308104652,35.01338384003495,0</coordinates>
 			</Point>
@@ -290,7 +960,7 @@
 				<range>186.2966871311653</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_tabimaru0</styleUrl>
+			<styleUrl>#msn_tabimaru000</styleUrl>
 			<Point>
 				<coordinates>135.9563891039232,35.00380632946258,0</coordinates>
 			</Point>
@@ -316,7 +986,7 @@
 				<range>129.1610416993551</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_tabimaru0</styleUrl>
+			<styleUrl>#msn_tabimaru000</styleUrl>
 			<Point>
 				<coordinates>135.9210872115341,35.01016681227934,0</coordinates>
 			</Point>
@@ -343,7 +1013,7 @@
 				<range>177.5335568781916</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_tabimaru0</styleUrl>
+			<styleUrl>#msn_tabimaru000</styleUrl>
 			<Point>
 				<coordinates>135.9469238868774,35.0039754998044,0</coordinates>
 			</Point>
@@ -368,7 +1038,7 @@
 				<range>130.6735857568148</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_tabimaru0</styleUrl>
+			<styleUrl>#msn_tabimaru000</styleUrl>
 			<Point>
 				<coordinates>135.9609456862055,34.99064077686554,0</coordinates>
 			</Point>
@@ -391,7 +1061,7 @@
 				<roll>-3.514512923017185e-13</roll>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</Camera>
-			<styleUrl>#msn_tabimaru0</styleUrl>
+			<styleUrl>#msn_tabimaru000</styleUrl>
 			<Point>
 				<coordinates>135.9606993253122,34.98490632848372,0</coordinates>
 			</Point>
@@ -416,9 +1086,32 @@
 				<range>325.5071912059467</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_tabimaru0</styleUrl>
+			<styleUrl>#msn_tabimaru000</styleUrl>
 			<Point>
 				<coordinates>135.9446387186555,34.99500241108323,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>夏空へ、テイク・オフ</name>
+			<description><![CDATA[<img width="480" height="360" src="files/14.JPG"/>
+<br><br>
+所在地：下物町
+<br><br>
+応募理由：夏に烏丸半島で行われる熱気球体験。早朝から順番待ちでたくさんの人が並ぶ。
+<br><br>
+季節：夏]]></description>
+			<LookAt>
+				<longitude>135.9379785034503</longitude>
+				<latitude>35.07249812057953</latitude>
+				<altitude>0</altitude>
+				<heading>-2.89258726060381e-10</heading>
+				<tilt>0</tilt>
+				<range>1536.595754307397</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru15</styleUrl>
+			<Point>
+				<coordinates>135.9376465710693,35.07296280248459,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="湖の青に船の白北山田漁港">
@@ -439,7 +1132,7 @@
 				<range>470.2378738109821</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_tabimaru0</styleUrl>
+			<styleUrl>#msn_tabimaru02</styleUrl>
 			<Point>
 				<coordinates>135.9150673242948,35.02995522862088,0</coordinates>
 			</Point>
@@ -469,7 +1162,7 @@
 				<range>4126.228911921333</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_tabimaru</styleUrl>
+			<styleUrl>#msn_tabimaru01</styleUrl>
 			<Point>
 				<coordinates>135.970150834284,34.98041165702661,0</coordinates>
 			</Point>
@@ -496,7 +1189,7 @@
 				<range>49.51964855045518</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_tabimaru</styleUrl>
+			<styleUrl>#msn_tabimaru3</styleUrl>
 			<Point>
 				<coordinates>135.9604429793941,35.01768764890291,0</coordinates>
 			</Point>
@@ -540,7 +1233,7 @@
 
 <br><br>
 季節：通年]]></description>
-			<styleUrl>#msn_tabimaru1</styleUrl>
+			<styleUrl>#msn_tabimaru100</styleUrl>
 			<Point>
 				<coordinates>135.959877,35.016909,0</coordinates>
 			</Point>
@@ -557,7 +1250,7 @@
 
 <br><br>
 季節：通年]]></description>
-			<styleUrl>#msn_tabimaru1</styleUrl>
+			<styleUrl>#msn_tabimaru100</styleUrl>
 			<Point>
 				<coordinates>135.96088,35.016269,0</coordinates>
 			</Point>
@@ -574,7 +1267,7 @@
 
 <br><br>
 通年]]></description>
-			<styleUrl>#msn_tabimaru1</styleUrl>
+			<styleUrl>#msn_tabimaru100</styleUrl>
 			<Point>
 				<coordinates>135.958251,35.014974,0</coordinates>
 			</Point>
@@ -599,7 +1292,7 @@
 				<range>370.3046292151935</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_tabimaru1</styleUrl>
+			<styleUrl>#msn_tabimaru100</styleUrl>
 			<Point>
 				<coordinates>135.962660082448,35.0202820330008,0</coordinates>
 			</Point>
@@ -625,7 +1318,7 @@
 				<range>479.2499452741059</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_tabimaru1</styleUrl>
+			<styleUrl>#msn_tabimaru100</styleUrl>
 			<Point>
 				<coordinates>135.9679602611367,35.01704879310569,0</coordinates>
 			</Point>
@@ -651,7 +1344,7 @@
 				<range>1088.516099633928</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_tabimaru1</styleUrl>
+			<styleUrl>#msn_tabimaru100</styleUrl>
 			<Point>
 				<coordinates>135.9647179398161,35.02327692197979,0</coordinates>
 			</Point>
@@ -677,7 +1370,7 @@
 				<range>215.6339917070785</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_tabimaru1</styleUrl>
+			<styleUrl>#msn_tabimaru100</styleUrl>
 			<Point>
 				<coordinates>135.9290315372225,35.00908107033717,0</coordinates>
 			</Point>
@@ -705,7 +1398,7 @@
 				<range>620.3071549157345</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_tabimaru1</styleUrl>
+			<styleUrl>#msn_tabimaru100</styleUrl>
 			<Point>
 				<coordinates>135.9434230684745,35.00427972715332,0</coordinates>
 			</Point>
@@ -731,7 +1424,7 @@
 				<range>104.8802239312281</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_tabimaru1</styleUrl>
+			<styleUrl>#msn_tabimaru100</styleUrl>
 			<Point>
 				<coordinates>135.9600121733617,34.98840856582858,0</coordinates>
 			</Point>
@@ -757,9 +1450,1477 @@
 				<range>533.4747757079722</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_tabimaru1</styleUrl>
+			<styleUrl>#msn_tabimaru00</styleUrl>
 			<Point>
 				<coordinates>135.9501575208903,35.04759943187472,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>建築物</name>
+		<Placemark>
+			<name>静寂の参道（追分八幡神社）</name>
+			<description><![CDATA[<img width="480" height="360" src="files/31.JPG"/>
+<br><br>
+所在地：追分町
+<br><br>
+応募理由：鳥居から続く静かな景観。この八幡神社は自然環境保全地区にも指定されています。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9652654192</longitude>
+				<latitude>35.00331340576569</latitude>
+				<altitude>0</altitude>
+				<heading>0.03491219454549291</heading>
+				<tilt>29.08454926092251</tilt>
+				<range>219.8923647040854</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru1</styleUrl>
+			<Point>
+				<coordinates>135.9652654192,35.00331340576569,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>小槻神社</name>
+			<description><![CDATA[<img width="480" height="360" src="files/32.JPG"/>
+<br><br>
+所在地：青地町
+<br><br>
+応募理由：古い歴史を有し、深い緑に包まれている
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.977308973298</longitude>
+				<latitude>35.00099832101422</latitude>
+				<altitude>0</altitude>
+				<heading>0.04191753686191189</heading>
+				<tilt>24.69156423926259</tilt>
+				<range>197.5015676617938</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru1</styleUrl>
+			<Point>
+				<coordinates>135.9772218661456,35.00109408622016,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>緑濃き立木神社の参道</name>
+			<description><![CDATA[<img width="480" height="360" src="files/33.JPG"/>
+<br><br>
+所在地：草津４丁目
+<br><br>
+応募理由：荘厳な神社の構えと緑豊かな社との対比。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9568112227935</longitude>
+				<latitude>35.01350419431641</latitude>
+				<altitude>0</altitude>
+				<heading>-155.1950431593632</heading>
+				<tilt>25.94015375346278</tilt>
+				<range>72.32183777317879</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru1</styleUrl>
+			<Point>
+				<coordinates>135.9568371876048,35.01348228766854,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>街道の分岐点に立つ常夜灯</name>
+			<description><![CDATA[<img width="480" height="360" src="files/34.JPG"/>
+<br><br>
+所在地：草津１丁目
+<br><br>
+応募理由：東海道と中山道の分岐点には常夜灯があり、歴史的な雰囲気を醸し出している。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9608641499078</longitude>
+				<latitude>35.01806058758523</latitude>
+				<altitude>0</altitude>
+				<heading>68.4987001105463</heading>
+				<tilt>16.64500134307903</tilt>
+				<range>48.89810188240912</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru1</styleUrl>
+			<Point>
+				<coordinates>135.9609347936549,35.01809867649452,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>廃線敷と旧草津川トンネル</name>
+			<description><![CDATA[<img width="480" height="360" src="files/35.JPG"/>
+<br><br>
+所在地：草津２丁目
+<br><br>
+応募理由：天井川の下を通るJRのトンネルは日本でも数少ない。 明治時代に造られたレンガ造りのトンネルに続く線路は、今は廃線となっているが、歴史的にも貴重である。
+<br><br>
+季節：]]></description>
+			<LookAt>
+				<longitude>135.959456248715</longitude>
+				<latitude>35.02002204324694</latitude>
+				<altitude>0</altitude>
+				<heading>-153.5720232720589</heading>
+				<tilt>28.08912268313048</tilt>
+				<range>215.4332657822645</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru1</styleUrl>
+			<Point>
+				<coordinates>135.9596220918577,35.01989800689235,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>小汐井神社の春霞</name>
+			<description><![CDATA[<img width="480" height="360" src="files/37.JPG"/>
+<br><br>
+所在地：大路２丁目
+<br><br>
+応募理由：大路にある小汐井神社は、春には桜が咲き誇る。
+<br><br>
+季節：春]]></description>
+			<LookAt>
+				<longitude>135.9639218278413</longitude>
+				<latitude>35.01954471529682</latitude>
+				<altitude>0</altitude>
+				<heading>22.61995304302907</heading>
+				<tilt>26.61899989485925</tilt>
+				<range>81.78585110924465</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru1</styleUrl>
+			<Point>
+				<coordinates>135.9638487759561,35.01953296478838,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>右東海道、左中山道（覚善寺前）</name>
+			<description><![CDATA[<img width="480" height="360" src="files/38.JPG"/>
+<br><br>
+所在地：大路１丁目
+<br><br>
+応募理由：旧草津川のトンネルの完成によって、東海道と中山道の分岐点が覚善寺南西角に移ったため、この道標が建立された。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9629947587177</longitude>
+				<latitude>35.02007267058126</latitude>
+				<altitude>0</altitude>
+				<heading>22.61942103641473</heading>
+				<tilt>26.61899386619702</tilt>
+				<range>80.28782365303849</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru1</styleUrl>
+			<Point>
+				<coordinates>135.9629354147318,35.02000971378406,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>矢倉道標</name>
+			<description><![CDATA[<img width="480" height="360" src="files/39.JPG"/>
+<br><br>
+所在地：矢倉二丁目
+<br><br>
+応募理由：「急がばまわれ」の起点に立つ道標。広重の絵に描かれている。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.954302917605</longitude>
+				<latitude>35.00841932710882</latitude>
+				<altitude>0</altitude>
+				<heading>-131.8246187283996</heading>
+				<tilt>29.9998889771586</tilt>
+				<range>92.40590821649133</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru1</styleUrl>
+			<Point>
+				<coordinates>135.9543264231648,35.00837118509834,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>鞭崎神社</name>
+			<description><![CDATA[<img width="480" height="360" src="files/40.JPG"/>
+<br><br>
+所在地：矢橋町
+<br><br>
+応募理由：重要文化財の表門は旧膳所城南大手門を移築したもの
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9271450537629</longitude>
+				<latitude>35.00761340455521</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01887164160554407</heading>
+				<tilt>22.85954774085767</tilt>
+				<range>336.2196536280997</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru1</styleUrl>
+			<Point>
+				<coordinates>135.9268730938183,35.00774240118703,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>秋の庭園</name>
+			<description><![CDATA[<img width="480" height="360" src="files/42.JPG"/>
+<br><br>
+所在地：矢橋町
+<br><br>
+応募理由：矢橋帰帆島入ってすぐの所だから、多くの人が見ずに通りすぎているのでは。くもりだったので色が良くないが、晴れた日は緑と紅葉が美しい。
+<br><br>
+季節：秋]]></description>
+			<LookAt>
+				<longitude>135.917387121073</longitude>
+				<latitude>35.01014967334955</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02030518699520124</heading>
+				<tilt>29.20618686967343</tilt>
+				<range>168.3546418719911</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru1</styleUrl>
+			<Point>
+				<coordinates>135.9169698489503,35.01025960133324,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>旅人がしばし休息、野路の一里塚</name>
+			<description><![CDATA[<img width="480" height="360" src="files/43.JPG"/>
+<br><br>
+所在地：野路６丁目
+<br><br>
+応募理由：草津宿から大津方面への一里塚跡。現在は上北池公園として整備されている。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9520836473109</longitude>
+				<latitude>35.00334351447808</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0001954551866434249</heading>
+				<tilt>29.99876410350656</tilt>
+				<range>166.6795646147136</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru1</styleUrl>
+			<Point>
+				<coordinates>135.9519715128594,35.00325661954974,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>新宮神社</name>
+			<description><![CDATA[<img width="480" height="360" src="files/44.JPG"/>
+<br><br>
+所在地：野路六丁目
+<br><br>
+応募理由：重要文化財の本殿と江戸時代の水門・鳥居、常夜燈等の残る風景
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9536276102104</longitude>
+				<latitude>34.99967923189931</latitude>
+				<altitude>0</altitude>
+				<heading>-0.004402422854193001</heading>
+				<tilt>29.9276747049041</tilt>
+				<range>297.4285825935165</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru1</styleUrl>
+			<Point>
+				<coordinates>135.9535548657768,34.99980153716448,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>伯母川ビオ・パークと地域住民活動</name>
+			<description><![CDATA[<img width="480" height="360" src="files/46_1.JPG"/>
+<br>
+<img width="480" height="360" src="files/46_2.JPG"/>
+<br>
+<img width="480" height="360" src="files/46_3.JPG"/>
+<br><br>
+所在地：南山田町
+<br><br>
+応募理由：市街地排水を浄化する植生浄化施設。ボランティアによる維持管理が続けられている
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9234122934149</longitude>
+				<latitude>35.02194646092872</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0184123267778875</heading>
+				<tilt>34.05038577561074</tilt>
+				<range>1668.359150572671</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru8</styleUrl>
+			<Point>
+				<coordinates>135.9207367446234,35.02052996324738,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>伯母川の修景護岸（不動浜）</name>
+			<description><![CDATA[<img width="480" height="360" src="files/47.JPG"/>
+<br><br>
+所在地：南山田町
+<br><br>
+応募理由：修景された護岸と親水や防災を考慮した伯母川は生活に密着し、散歩する人の目も癒してくれる。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9269440050008</longitude>
+				<latitude>35.01995772267158</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02567569637266233</heading>
+				<tilt>24.57017255904798</tilt>
+				<range>313.7193421418618</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru18</styleUrl>
+			<Point>
+				<coordinates>135.9272032179544,35.01957724192657,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>老杉神社</name>
+			<description><![CDATA[<img width="480" height="360" src="files/48_1.JPG"/>
+<br>
+<img width="480" height="360" src="files/48_2.JPG"/>
+<br><br>
+所在地：下笠町
+<br><br>
+応募理由：重要文化財の本殿が優美である。また、おこないの勧請縄がすばらしい
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9404573621661</longitude>
+				<latitude>35.04062933758365</latitude>
+				<altitude>0</altitude>
+				<heading>-2.957915853761071e-11</heading>
+				<tilt>0</tilt>
+				<range>410.3999211415663</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru17</styleUrl>
+			<Point>
+				<coordinates>135.9403406504212,35.04070004982129,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>熊野神社</name>
+			<description><![CDATA[<img width="480" height="360" src="files/49.JPG"/>
+<br><br>
+所在地：平井３丁目
+<br><br>
+応募理由：古い参堂が残る風景
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9610928770504</longitude>
+				<latitude>35.03378230271381</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001070889013189632</heading>
+				<tilt>18.81696040316682</tilt>
+				<range>323.9296601447471</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru17</styleUrl>
+			<Point>
+				<coordinates>135.9610928770504,35.03378230271381,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>芦浦観音寺</name>
+			<description><![CDATA[<img width="480" height="360" src="files/50.JPG"/>
+<br><br>
+所在地：芦浦町
+<br><br>
+応募理由：国指定の史跡であり、湖上交通に密接に関ってきた歴史を感じさせる。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9550294914838</longitude>
+				<latitude>35.05952784059123</latitude>
+				<altitude>0</altitude>
+				<heading>-9.366443979211898e-06</heading>
+				<tilt>20.08377219134341</tilt>
+				<range>347.411989567353</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru4</styleUrl>
+			<Point>
+				<coordinates>135.9550294914838,35.05952784059123,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>夢風車と比叡山</name>
+			<description><![CDATA[<img width="480" height="360" src="files/51.JPG"/>
+<br><br>
+所在地：下物町
+<br><br>
+応募理由：１月初旬頃、前日から降った雪で一面は真っ白でした。比叡山と水生植物公園の建屋がとても融和していて、きれいでした。
+<br><br>
+季節：冬]]></description>
+			<Camera>
+				<longitude>135.9461549648556</longitude>
+				<latitude>35.07407087932723</latitude>
+				<altitude>2.000000000435365</altitude>
+				<heading>-91.18691485159054</heading>
+				<tilt>92.50026787939265</tilt>
+				<roll>8.269442171805144e-14</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_tabimaru10</styleUrl>
+			<Point>
+				<coordinates>135.9458292044545,35.07407015792121,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>水の森の風車</name>
+			<description><![CDATA[<img width="480" height="360" src="files/52.JPG"/>
+<br><br>
+所在地：下物町
+<br><br>
+応募理由：風車による発電の魅力。風により羽根がまわっている姿は雄大なものを感じる。
+<br><br>
+季節：夏]]></description>
+			<LookAt>
+				<longitude>135.9411420388591</longitude>
+				<latitude>35.07371574317154</latitude>
+				<altitude>0</altitude>
+				<heading>0.006090620662179</heading>
+				<tilt>24.22410407770957</tilt>
+				<range>157.1412624715789</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru9</styleUrl>
+			<Point>
+				<coordinates>135.9412230539683,35.07373119728901,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>烏丸半島のモニュメントと夢風車</name>
+			<description><![CDATA[<img width="480" height="360" src="files/53.JPG"/>
+<br><br>
+所在地：下物町
+<br><br>
+応募理由：烏丸半島の入り口から夢風車を見ると、広い空間の中に近代的な構造物が織 りなす造形美が美しい景観である。
+<br><br>
+季節：夏]]></description>
+			<LookAt>
+				<longitude>135.9366567991824</longitude>
+				<latitude>35.07122550512823</latitude>
+				<altitude>0</altitude>
+				<heading>2.243674111170177</heading>
+				<tilt>17.12610979519129</tilt>
+				<range>150.3182651069859</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru9</styleUrl>
+			<Point>
+				<coordinates>135.9365953687364,35.07104305397817,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>くらし</name>
+		<Placemark>
+			<name>ロクハ公園じゃぶじゃぶ小川</name>
+			<description><![CDATA[<img width="480" height="360" src="files/54.JPG"/>
+<br><br>
+所在地：追分七丁目
+<br><br>
+応募理由：人工の川ですが子どもたちにとって夏場は憩いの場となっています。無邪気に遊ぶ子どもたちの姿がほほえましいです。
+<br><br>
+季節：夏]]></description>
+			<LookAt>
+				<longitude>135.9685843359103</longitude>
+				<latitude>34.99798055222185</latitude>
+				<altitude>0</altitude>
+				<heading>-5.80827762386489e-05</heading>
+				<tilt>8.664798191039681</tilt>
+				<range>316.3750584039159</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru9</styleUrl>
+			<Point>
+				<coordinates>135.9683932323131,34.99800651830498,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>草津学区に点在する地蔵尊と、それを守る人々のくらし</name>
+			<description><![CDATA[<img width="480" height="360" src="files/55.JPG"/>
+<br><br>
+所在地：草津２丁目
+<br><br>
+応募理由：この地区には多くのお地蔵様がまつられている。それぞれに歴史的ないわれがあるようだ。くらしと密着したこうした風景を大切にしたい。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.95975541217</longitude>
+				<latitude>35.01685613288797</latitude>
+				<altitude>0</altitude>
+				<heading>5.311130720652792e-07</heading>
+				<tilt>2.162764250933408</tilt>
+				<range>889.9431462750795</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru9</styleUrl>
+			<Point>
+				<coordinates>135.95975541217,35.01685613288797,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>秋の夜空に届け、くさつ夢あかり</name>
+			<description><![CDATA[<img width="480" height="360" src="files/56.JPG"/>
+<br><br>
+所在地：草津１丁目
+<br><br>
+応募理由：旧草津川を天の川に見立てた、幻想的な夜の一幕。
+<br><br>
+季節：秋]]></description>
+			<LookAt>
+				<longitude>135.964260763077</longitude>
+				<latitude>35.01665356077928</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0006903240924377853</heading>
+				<tilt>10.13558861927758</tilt>
+				<range>558.1222580648575</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru9</styleUrl>
+			<Point>
+				<coordinates>135.9646198996467,35.01759786694705,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>春を彩るくさつ宿場祭り</name>
+			<description><![CDATA[<img width="480" height="360" src="files/57.JPG"/>
+<br><br>
+所在地：草津１丁目
+<br><br>
+応募理由：毎年開催される、草津を代表する春の一大イベント。
+<br><br>
+季節：春]]></description>
+			<LookAt>
+				<longitude>135.9603275015942</longitude>
+				<latitude>35.01749001764506</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002947153709580315</heading>
+				<tilt>10.13667499696018</tilt>
+				<range>679.8222781179325</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru9</styleUrl>
+			<Point>
+				<coordinates>135.9606872082612,35.01795980109709,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>夜空に浮かぶ風船、くさつまちあかり</name>
+			<description><![CDATA[<img width="480" height="360" src="files/58_1.JPG"/>
+<br>
+<img width="480" height="360" src="files/58_2.JPG"/>
+<br><br>
+所在地：渋川１丁目
+<br><br>
+応募理由：和風のイメージで整備された草津駅東口のデッキ広場の夜景。ライトアップされた風船が幻想的
+<br><br>
+季節：秋]]></description>
+			<LookAt>
+				<longitude>135.9619082682855</longitude>
+				<latitude>35.02172443419929</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002054366205112251</heading>
+				<tilt>26.9383536839377</tilt>
+				<range>586.8166807644207</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru6</styleUrl>
+			<Point>
+				<coordinates>135.9619821608311,35.02180211666161,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>公園の水遊び（矢橋帰帆島）</name>
+			<description><![CDATA[<img width="480" height="360" src="files/59.JPG"/>
+<br><br>
+所在地：矢橋町
+<br><br>
+応募理由：子どもは水遊びが大好き。ここでも、子どもたちは楽しそうに水と戯れています。
+<br><br>
+季節：夏]]></description>
+			<LookAt>
+				<longitude>135.91780483113</longitude>
+				<latitude>35.01042409917409</latitude>
+				<altitude>0</altitude>
+				<heading>0.0001028919835828505</heading>
+				<tilt>0.0228284830626508</tilt>
+				<range>811.0602140229291</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru6</styleUrl>
+			<Point>
+				<coordinates>135.9172248812476,35.01013381082772,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>狼川で戯れる子どもたち</name>
+			<description><![CDATA[<img width="480" height="360" src="files/60.JPG"/>
+<br><br>
+所在地：南笠東
+<br><br>
+応募理由：民話「おおかみと大かめ」の舞台となった狼川の清流で水遊びする子どもたちの風景です。
+<br><br>
+季節：春]]></description>
+			<LookAt>
+				<longitude>135.9448220582509</longitude>
+				<latitude>34.99268409360046</latitude>
+				<altitude>0</altitude>
+				<heading>0.002892180579889639</heading>
+				<tilt>22.12824520857784</tilt>
+				<range>389.845796316513</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru6</styleUrl>
+			<Point>
+				<coordinates>135.94451335341,34.99275975507915,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>上笠のあおばな摘み</name>
+			<description><![CDATA[<img width="480" height="360" src="files/61.JPG"/>
+<br><br>
+所在地：上笠町
+<br><br>
+応募理由：市の花であるアオバナを栽培している農家。アオバナの収穫が見られるのは、市内でももう数少ない。
+<br><br>
+季節：夏]]></description>
+			<LookAt>
+				<longitude>135.9482814405553</longitude>
+				<latitude>35.03724267508679</latitude>
+				<altitude>0</altitude>
+				<heading>0.0008678392586642127</heading>
+				<tilt>0</tilt>
+				<range>998.4819318880373</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru6</styleUrl>
+			<Point>
+				<coordinates>135.9472462516047,35.03720076961393,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>集、遊々鯉のぼり大会</name>
+			<description><![CDATA[<img width="480" height="360" src="files/62.JPG"/>
+<br><br>
+所在地：集町
+<br><br>
+応募理由：第１６回遊々鯉のぼり大会（集町まちづくり委員会）に合わせ、自然公園を設置して、憩いと癒しの農村環境を形成している。
+<br><br>
+季節：春]]></description>
+			<LookAt>
+				<longitude>135.9488142407822</longitude>
+				<latitude>35.03905302083781</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002804689439532157</heading>
+				<tilt>7.415723031871623</tilt>
+				<range>1277.459000486479</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru6</styleUrl>
+			<Point>
+				<coordinates>135.9486094048461,35.03962746230237,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>自然</name>
+		<Placemark>
+			<name>青地名残りの城池</name>
+			<description><![CDATA[<img width="480" height="360" src="files/63.JPG"/>
+<br><br>
+所在地：青地町
+<br><br>
+応募理由：青地城が建っていた名残として城池と呼ばれている用水池。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9775708838239</longitude>
+				<latitude>35.00385624123754</latitude>
+				<altitude>0</altitude>
+				<heading>2.598992465262951e-05</heading>
+				<tilt>0</tilt>
+				<range>648.4194136036913</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru</styleUrl>
+			<Point>
+				<coordinates>135.9771947402227,35.00399216908762,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ロクハ公園川原池</name>
+			<description><![CDATA[<img width="480" height="360" src="files/64_1.JPG"/>
+<br>
+<img width="480" height="360" src="files/64_2.JPG"/>
+<br><br>
+所在地：追分七丁目
+<br><br>
+応募理由：アヒルたちが優雅に泳ぎまわり、外周にはメタセコイア、サクラ、ツバキなど四季折々の木々が景色を変えてくれる心和ませる空間です。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.968428634342</longitude>
+				<latitude>34.99890898043206</latitude>
+				<altitude>0</altitude>
+				<heading>-0.005215524717230417</heading>
+				<tilt>6.667738466906266</tilt>
+				<range>661.1659839094642</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru0</styleUrl>
+			<Point>
+				<coordinates>135.9681278104816,34.99891862186036,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>消えゆく原風景</name>
+			<description><![CDATA[<img width="480" height="360" src="files/65_1.JPG"/>
+<br>
+<img width="480" height="360" src="files/65_2.JPG"/>
+<br><br>
+所在地：山寺町・馬場町
+<br><br>
+応募理由：山の手幹線道路が計画されており、消えゆく原風景です。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.983442821325</longitude>
+				<latitude>34.99585885616705</latitude>
+				<altitude>0</altitude>
+				<heading>0.001037406646730479</heading>
+				<tilt>4.984069925702276</tilt>
+				<range>5269.664691083336</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru0</styleUrl>
+			<Point>
+				<coordinates>135.9834427752154,34.99372263109661,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>りょうぶの道（牟礼山周辺）</name>
+			<description><![CDATA[<img width="480" height="360" src="files/66_1.JPG"/>
+<br>
+<img width="480" height="360" src="files/66_2.JPG"/>
+<br><br>
+所在地：岡本町
+<br><br>
+応募理由：雑木林の中の自然遊歩道
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9678505927495</longitude>
+				<latitude>34.97792252287478</latitude>
+				<altitude>0</altitude>
+				<heading>-0.007563969230720448</heading>
+				<tilt>9.517582938823152</tilt>
+				<range>1342.232515983186</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru0</styleUrl>
+			<Point>
+				<coordinates>135.9653771896956,34.97738529084031,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>草津川跡地の夜桜</name>
+			<description><![CDATA[<img width="480" height="360" src="files/67.JPG"/>
+<br><br>
+所在地：草津一丁目
+<br><br>
+応募理由：花見客でにぎわう草津川跡地の桜。桜のライトアップにより、昼の桜と異なる夜の景観を楽しめます。
+<br><br>
+季節：春]]></description>
+			<LookAt>
+				<longitude>135.9651075519415</longitude>
+				<latitude>35.01772242344772</latitude>
+				<altitude>0</altitude>
+				<heading>-0.009195101594651636</heading>
+				<tilt>13.90448024188122</tilt>
+				<range>274.8870595123395</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru12</styleUrl>
+			<Point>
+				<coordinates>135.9651330765445,35.01794012790984,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>矢橋帰帆島公園のメタセコイア並木道</name>
+			<description><![CDATA[<img width="480" height="360" src="files/68.JPG"/>
+<br><br>
+所在地：矢橋町
+<br><br>
+応募理由：公園内の自然（桜並木・メタセコイアの並木・その他並木と琵琶湖）と子ど もたちが遊べる設備が充実しています。（又、びわ湖湖畔の夕日が綺麗）
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9137686345467</longitude>
+				<latitude>35.00614905685757</latitude>
+				<altitude>0</altitude>
+				<heading>-0.03661736533938236</heading>
+				<tilt>24.93322917790154</tilt>
+				<range>236.8489931149068</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru12</styleUrl>
+			<Point>
+				<coordinates>135.9136664666158,35.00614476583907,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>葉山川河口より眺める比叡山</name>
+			<description><![CDATA[<img width="480" height="360" src="files/69.JPG"/>
+<br><br>
+所在地：下笠町
+<br><br>
+応募理由：四季、時間により美しさは様々。どれをとっても素晴らしい
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9259033587804</longitude>
+				<latitude>35.04700836336019</latitude>
+				<altitude>0</altitude>
+				<heading>-0.03091216633410127</heading>
+				<tilt>14.96547378850375</tilt>
+				<range>1532.858523774733</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru12</styleUrl>
+			<Point>
+				<coordinates>135.9225114425037,35.04634350837412,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>葉山川と伊佐々川放水路の合流点からの比良の雪景色</name>
+			<description><![CDATA[<img width="480" height="360" src="files/70.JPG"/>
+<br><br>
+所在地：川原町
+<br><br>
+応募理由：天気が良い日には、近江八景の一つ、「比良の暮雪」で有名な比良山の雪景色がパノラマで堪能できます。
+<br><br>
+季節：冬]]></description>
+			<LookAt>
+				<longitude>135.9221018762125</longitude>
+				<latitude>35.04641885043639</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0330951781226675</heading>
+				<tilt>14.96733637800071</tilt>
+				<range>1533.284285259529</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru7</styleUrl>
+			<Point>
+				<coordinates>135.9188476498533,35.04606950476094,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>琵琶湖のエリ漁と比叡山</name>
+			<description><![CDATA[<img width="480" height="360" src="files/71_1.JPG"/>
+<br>
+<img width="480" height="360" src="files/71_2.JPG"/>
+<br><br>
+所在地：志那町
+<br><br>
+応募理由：琵琶湖独特のエリ漁と対岸の比叡山を望む風景。 特に夕景は魅力的である。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9239449312882</longitude>
+				<latitude>35.0544986725421</latitude>
+				<altitude>0</altitude>
+				<heading>-0.03035815710686927</heading>
+				<tilt>13.6293824188794</tilt>
+				<range>1017.431668768283</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru7</styleUrl>
+			<Point>
+				<coordinates>135.9220569913356,35.05465658960593,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>冬の使者、琵琶湖のコハクチョウ</name>
+			<description><![CDATA[<img width="480" height="360" src="files/72.JPG"/>
+<br><br>
+所在地：志那町
+<br><br>
+応募理由：雪化粧した比良山系を背景に、白いコハクチョウが羽を休めている。
+<br><br>
+季節：冬]]></description>
+			<LookAt>
+				<longitude>135.9239449312882</longitude>
+				<latitude>35.0544986725421</latitude>
+				<altitude>0</altitude>
+				<heading>-0.03035815710686927</heading>
+				<tilt>13.6293824188794</tilt>
+				<range>1017.431668768283</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru13</styleUrl>
+			<Point>
+				<coordinates>135.92183856764,35.0541887263184,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>旧穴村港とそれに続く水路</name>
+			<description><![CDATA[<img width="480" height="360" src="files/74.JPG"/>
+<br><br>
+所在地：志那中町
+<br><br>
+応募理由：穴村港はかつて穴村の「もんもん」でにぎわった港。水路には船が通ったという。各家からの石段や石垣がそれとわかる。道路沿いには花が植えられ遠くの田園風景と共に絵になる空間。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9318169693461</longitude>
+				<latitude>35.05865371857939</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02471296805088007</heading>
+				<tilt>29.70818225105267</tilt>
+				<range>720.0804683150053</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru13</styleUrl>
+			<Point>
+				<coordinates>135.931873302413,35.05839856940246,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>水鳥観察をする小学生</name>
+			<description><![CDATA[<img width="480" height="360" src="files/75.JPG"/>
+<br><br>
+所在地：志那町
+<br><br>
+応募理由：水鳥の観察とコハクチョウの来鳥を待つ子どもたち。
+<br><br>
+季節：冬]]></description>
+			<LookAt>
+				<longitude>135.9216126366155</longitude>
+				<latitude>35.05261924719522</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0305741532245038</heading>
+				<tilt>29.70819293742956</tilt>
+				<range>722.4811401435869</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru13</styleUrl>
+			<Point>
+				<coordinates>135.9208985356404,35.05181738056326,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>蓮海寺（さざ波が寄せていた往時をしのぶ）</name>
+			<description><![CDATA[<img width="480" height="360" src="files/76.JPG"/>
+<br><br>
+所在地：志那町
+<br><br>
+応募理由：湖岸道路が通る以前は水辺にあった「蓮海寺」小堂の景観はすばらしかった。様変わりしたが、工夫してスイレン池などで景観を保っている
+<br><br>
+季節：春]]></description>
+			<LookAt>
+				<longitude>135.9248683473598</longitude>
+				<latitude>35.05487262675558</latitude>
+				<altitude>0</altitude>
+				<heading>-9.990629750143039e-06</heading>
+				<tilt>25.73689416497886</tilt>
+				<range>150.8800065273644</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru13</styleUrl>
+			<Point>
+				<coordinates>135.9248802197623,35.05483633132458,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>志那の湖岸緑地</name>
+			<description><![CDATA[<img width="480" height="360" src="files/78.JPG"/>
+<br><br>
+所在地：志那町
+<br><br>
+応募理由：遠くにエリを見ながら釣りを楽しんだり、芝生が広がる緑地では、バーベキューなどをする人でにぎわいます。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9221563343313</longitude>
+				<latitude>35.05104933569873</latitude>
+				<altitude>0</altitude>
+				<heading>-0.005408807300971382</heading>
+				<tilt>17.64334903433425</tilt>
+				<range>978.9222411156878</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru13</styleUrl>
+			<Point>
+				<coordinates>135.9202760922198,35.05146961234136,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>志那の人々に愛される桜の名所</name>
+			<description><![CDATA[<img width="480" height="360" src="files/79.JPG"/>
+<br><br>
+所在地：志那町
+<br><br>
+応募理由：三大神社の藤とともに、地域に根づいた景観スポットである。
+<br><br>
+季節：春]]></description>
+			<LookAt>
+				<longitude>135.9371085201177</longitude>
+				<latitude>35.04875146075828</latitude>
+				<altitude>0</altitude>
+				<heading>6.039112702496879e-05</heading>
+				<tilt>0</tilt>
+				<range>318.7201748529226</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru5</styleUrl>
+			<Point>
+				<coordinates>135.9369416800951,35.04873809916005,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>モニュメントと花のプロムナード</name>
+			<description><![CDATA[<img width="480" height="360" src="files/80.JPG"/>
+<br><br>
+所在地：下物町
+<br><br>
+応募理由：烏丸半島の入り口のモニュメントと、よく手入れされた芝生や花が美しく気持ちよくすごせる空間である。
+<br><br>
+季節：夏]]></description>
+			<LookAt>
+				<longitude>135.9371085179598</longitude>
+				<latitude>35.07147555197824</latitude>
+				<altitude>0</altitude>
+				<heading>0.0003678752471358723</heading>
+				<tilt>15.95763125635756</tilt>
+				<range>648.1004141707883</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru11</styleUrl>
+			<Point>
+				<coordinates>135.9367243036141,35.07151087629381,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>冬は偉大な芸術家、湖岸の氷華</name>
+			<description><![CDATA[<img width="480" height="360" src="files/81_1.JPG"/>
+<br>
+<img width="480" height="360" src="files/81_2.JPG"/>
+<br><br>
+所在地：北山田町～志那町
+<br><br>
+応募理由：年に一度有るか無いかですが、気温が下がった日は可能性があります。とても神秘的です。
+<br><br>
+季節：冬]]></description>
+			<LookAt>
+				<longitude>135.9148470481077</longitude>
+				<latitude>35.03170963079825</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01140228792316062</heading>
+				<tilt>15.89262685266006</tilt>
+				<range>1614.036324142819</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru14</styleUrl>
+			<Point>
+				<coordinates>135.9130612675769,35.03239963701555,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>眺望</name>
+		<Placemark>
+			<name>牟礼山</name>
+			<description><![CDATA[<img width="480" height="360" src="files/82.JPG"/>
+<br><br>
+所在地：岡本町
+<br><br>
+応募理由：山の少ない草津での山頂からの眺望
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9655267274993</longitude>
+				<latitude>34.9779427317991</latitude>
+				<altitude>0</altitude>
+				<heading>0.007347818250950692</heading>
+				<tilt>12.21950078743854</tilt>
+				<range>2844.219730561038</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru14</styleUrl>
+			<Point>
+				<coordinates>135.9657163888763,34.97647439945568,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>背くらべ（三上山と砂原大橋）</name>
+			<description><![CDATA[<img width="480" height="360" src="files/83.JPG"/>
+<br><br>
+所在地：東草津２丁目
+<br><br>
+応募理由：大きさ・形がちょうど同じで、自然物と人工物の対比におもしろさを感じる。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9674133754309</longitude>
+				<latitude>35.01184382195106</latitude>
+				<altitude>0</altitude>
+				<heading>0.008596103550809241</heading>
+				<tilt>20.96306834174018</tilt>
+				<range>1441.084393767662</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru14</styleUrl>
+			<Point>
+				<coordinates>135.9653143040284,35.01158232667001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>頓蓮池から望む南草津駅周辺</name>
+			<description><![CDATA[<img width="480" height="360" src="files/84.JPG"/>
+<br><br>
+所在地：西矢倉１丁目
+<br><br>
+応募理由：池の向こう側に南草津駅周辺の都市景観が広がる。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.950013094351</longitude>
+				<latitude>35.01466154977943</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001386654073820513</heading>
+				<tilt>20.96309001953735</tilt>
+				<range>1447.83037172487</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru14</styleUrl>
+			<Point>
+				<coordinates>135.9489594168361,35.01520316138892,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>矢橋帰帆島湖岸緑地より大津市街・比良比叡を一望する</name>
+			<description><![CDATA[<img width="480" height="360" src="files/86.JPG"/>
+<br><br>
+所在地：矢橋町
+<br><br>
+応募理由：広角度に広がる大パノラマはすごい迫力があり、素晴らしい景観である。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9117338020357</longitude>
+				<latitude>35.00793232683035</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0147759122429687</heading>
+				<tilt>10.58964206454359</tilt>
+				<range>1331.621828304274</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru14</styleUrl>
+			<Point>
+				<coordinates>135.9092760240277,35.00815263659574,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>夕陽を浴びて輝く草津駅前のビル群</name>
+			<description><![CDATA[<img width="480" height="360" src="files/87.JPG"/>
+<br><br>
+所在地：下笠町
+<br><br>
+応募理由：田園の向こうのビル群は、西日を受けて輝き、都市を感じさせる。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9294325557256</longitude>
+				<latitude>35.03874166257097</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002610818919005905</heading>
+				<tilt>0</tilt>
+				<range>3668.990354975485</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru14</styleUrl>
+			<Point>
+				<coordinates>135.9188345253406,35.04313035613544,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>平湖の春、柳平湖の夏</name>
+			<description><![CDATA[<img width="480" height="360" src="files/88_1.JPG"/>
+<br>
+<img width="480" height="360" src="files/88_2.JPG"/>
+<br><br>
+所在地：志那町
+<br><br>
+応募理由：平湖に訪れた静かな春、夏は柳平湖の向こうに対岸の山々が美しい。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9209826972608</longitude>
+				<latitude>35.04887409479408</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02226928624093331</heading>
+				<tilt>8.361833371975603</tilt>
+				<range>2290.781947255807</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru14</styleUrl>
+			<Point>
+				<coordinates>135.9217133965134,35.04912268624105,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>葉山川河口から見返る近江富士</name>
+			<description><![CDATA[<img width="480" height="360" src="files/90.JPG"/>
+<br><br>
+所在地：西渋川２丁目～下笠町
+<br><br>
+応募理由：サイクリングロードが整備されており、四季の風景を楽しみながらサイクリングができる。また、河口から上流を眺めると遠くに三上山を望むことができる。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.928618024826</longitude>
+				<latitude>35.0340262439642</latitude>
+				<altitude>0</altitude>
+				<heading>-0.003078669592897181</heading>
+				<tilt>0</tilt>
+				<range>3666.01966006908</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru14</styleUrl>
+			<Point>
+				<coordinates>135.9197343336588,35.0374915746218,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>田園</name>
+		<Placemark>
+			<name>まとまった丘陵部の田園（山寺）</name>
+			<description><![CDATA[<img width="480" height="360" src="files/91.JPG"/>
+<br><br>
+所在地：山寺町
+<br><br>
+応募理由：丘陵部に広がる田園風景はまとまりがあり美しい。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9929103006056</longitude>
+				<latitude>34.99844451647721</latitude>
+				<altitude>0</altitude>
+				<heading>0.006417688546663632</heading>
+				<tilt>6.265064626134612</tilt>
+				<range>1666.174777599856</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru16</styleUrl>
+			<Point>
+				<coordinates>135.9930044928759,34.99760080675907,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>光の粒を呼吸する、北山田ビニールハウス群</name>
+			<description><![CDATA[<img width="480" height="360" src="files/92.JPG"/>
+<br><br>
+所在地：北山田町
+<br><br>
+応募理由：北山田にある壮大なビニールハウス群。日光を受けてキラキラ輝き、きれいです。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9207324291989</longitude>
+				<latitude>35.03496412210554</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0001525814904343261</heading>
+				<tilt>0.3302888650626765</tilt>
+				<range>2605.921321029432</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru16</styleUrl>
+			<Point>
+				<coordinates>135.9186577960911,35.03604399138577,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>常盤学区、夏の育ち、秋の実り</name>
+			<description><![CDATA[<img width="480" height="360" src="files/93_1.JPG"/>
+<br>
+<img width="480" height="360" src="files/93_2.JPG"/>
+<br><br>
+所在地：志那中町
+<br><br>
+応募理由：田園と蓮の緑が眩しい夏、豊かな実りに感謝し収穫する秋。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9363281387648</longitude>
+				<latitude>35.05292857601371</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001947899397779047</heading>
+				<tilt>5.586689582504055</tilt>
+				<range>1670.940392461121</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru15</styleUrl>
+			<Point>
+				<coordinates>135.9348788835782,35.05328294686345,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>樹木</name>
+		<Placemark>
+			<name>藤右衛門桜（一重彼岸枝垂桜）</name>
+			<description><![CDATA[<img width="480" height="360" src="files/95_1.JPG"/>
+<br>
+<img width="480" height="360" src="files/95_2.JPG"/>
+<br><br>
+所在地：野路東
+<br><br>
+応募理由：正門前右側に、円山公園（京都市東山区）の枝垂桜の孫樹。立命館大学（ＢＫＣ）開校にあたり本樹を佐野藤右衛門氏が寄贈されたもの。
+<br><br>
+季節：春]]></description>
+			<LookAt>
+				<longitude>135.9630977109836</longitude>
+				<latitude>34.98661014190703</latitude>
+				<altitude>0</altitude>
+				<heading>-9.296781196481886e-06</heading>
+				<tilt>0</tilt>
+				<range>94.57678527259715</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru15</styleUrl>
+			<Point>
+				<coordinates>135.96301268045,34.98661411011996,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>旧東海道名残の松並木</name>
+			<description><![CDATA[<img width="480" height="360" src="files/96.JPG"/>
+<br><br>
+所在地：南笠東４丁目
+<br><br>
+応募理由：大津との境にある旧東海道の松並木跡。江戸時代の旅人はよく、ここでひと休みしたのだろう。
+<br><br>
+季節：通年]]></description>
+			<LookAt>
+				<longitude>135.9413276000332</longitude>
+				<latitude>34.98998364839186</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01205700286510459</heading>
+				<tilt>13.48854051356077</tilt>
+				<range>426.7613629931579</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru15</styleUrl>
+			<Point>
+				<coordinates>135.941245075045,34.99000173777348,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>生まれは江戸時代初期、最勝寺の椿</name>
+			<description><![CDATA[<img width="480" height="360" src="files/97.JPG"/>
+<br><br>
+所在地：川原２丁目
+<br><br>
+応募理由：最勝寺にある椿の大木は、市の天然記念物である。
+<br><br>
+季節：春]]></description>
+			<LookAt>
+				<longitude>135.9551222909964</longitude>
+				<latitude>35.03499866160435</latitude>
+				<altitude>0</altitude>
+				<heading>-6.011881349593185e-05</heading>
+				<tilt>0</tilt>
+				<range>306.9589432215226</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru15</styleUrl>
+			<Point>
+				<coordinates>135.9552200296458,35.03507440312173,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>「砂ずりの藤」で有名な三大神社</name>
+			<description><![CDATA[<img width="480" height="360" src="files/98.JPG"/>
+<br><br>
+所在地：志那町
+<br><br>
+応募理由：三大神社の藤の大樹は藤原鎌足の死後、一門の隆盛を祈って大和より移植されました。毎年４月下旬から５月上旬にかけて花が咲きます。県の自然記念物に指定されており、花房の先が地面にまで達する様子から「砂ずりの藤」とも呼ばれています。
+<br><br>
+季節：春]]></description>
+			<LookAt>
+				<longitude>135.9374610639834</longitude>
+				<latitude>35.04829869077822</latitude>
+				<altitude>0</altitude>
+				<heading>7.413312620003075e-05</heading>
+				<tilt>0</tilt>
+				<range>315.4522818010574</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru15</styleUrl>
+			<Point>
+				<coordinates>135.9374610639834,35.04829869077822,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>志那神社の参道</name>
+			<description><![CDATA[<img width="480" height="360" src="files/99.JPG"/>
+<br><br>
+所在地：志那町
+<br><br>
+応募理由：長い参道を歩くと昔にタイムスリップした気持になる。時代劇のロケにぴったりと思います。
+<br><br>
+季節：春]]></description>
+			<LookAt>
+				<longitude>135.9323438631043</longitude>
+				<latitude>35.05296562939893</latitude>
+				<altitude>0</altitude>
+				<heading>-8.990312465825703e-05</heading>
+				<tilt>11.16903464998875</tilt>
+				<range>532.5070877635864</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru15</styleUrl>
+			<Point>
+				<coordinates>135.9323438631043,35.05296562939893,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>烏丸半島の並木道</name>
+			<description><![CDATA[<img width="480" height="360" src="files/100.JPG"/>
+<br><br>
+所在地：下物町
+<br><br>
+応募理由：びわこ博物館から坂を下ると、広がる琵琶湖とケヤキ並木がすがすがしく心癒される風景である。
+<br><br>
+季節：夏]]></description>
+			<LookAt>
+				<longitude>135.9367640082641</longitude>
+				<latitude>35.07418113471596</latitude>
+				<altitude>0</altitude>
+				<heading>-0.003767744761635254</heading>
+				<tilt>18.56231032904191</tilt>
+				<range>921.2502500866809</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tabimaru15</styleUrl>
+			<Point>
+				<coordinates>135.9361919345446,35.07401982984518,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
